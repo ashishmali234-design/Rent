@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a6b57">
+<title>Rent Desk</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="row"><span class="brand">Rent Desk</span><span class="today" id="today"></span></div>
+    <div class="mswitch" id="mswitch">
+      <button class="iconbtn" id="prev" aria-label="Previous month">&#8249;</button>
+      <div class="mname" id="mname"></div>
+      <button class="iconbtn" id="next" aria-label="Next month">&#8250;</button>
+    </div>
+  </div>
+  <main id="main"></main>
+</div>
+<nav class="nav" aria-label="Main"><div>
+  <button data-view="home" aria-current="page">Home</button>
+  <button data-view="tenants">Tenants</button>
+  <button data-view="payments">Payments</button>
+  <button data-view="settings">Settings</button>
+</div></nav>
+<div id="modal" class="hide"></div>
+<div id="toast" class="toast hide" role="status"></div>
+<noscript>Rent Desk needs JavaScript.</noscript>
+<script type="module" src="app.js"></script>
+</body>
+</html>

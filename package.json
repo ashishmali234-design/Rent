@@ -1,0 +1,11 @@
+{
+  "name": "rent-desk",
+  "version": "1.0.0",
+  "description": "Free rent collection tracker for India: Marathi WhatsApp/SMS reminders, UPI links, payment history. Runs in the phone browser.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "python3 -m http.server 8080"
+  },
+  "license": "MIT"
+}
